@@ -1,0 +1,64 @@
+{
+  "baseline": "baseline_5m",
+  "base_config": {
+    "pre_seconds": 60,
+    "post_seconds": 300,
+    "step_seconds": 1,
+    "max_staleness_seconds": 2,
+    "endpoint_seconds": 60,
+    "min_coverage": 0.95,
+    "min_move_bps": 1.0,
+    "noise_multiplier": 3.0,
+    "min_history": 6,
+    "bootstrap_samples": 500,
+    "seed": 42
+  },
+  "scenarios": [
+    {
+      "name": "baseline_5m",
+      "overrides": {}
+    },
+    {
+      "name": "endpoint_30s",
+      "overrides": {
+        "endpoint_seconds": 30
+      }
+    },
+    {
+      "name": "endpoint_120s",
+      "overrides": {
+        "endpoint_seconds": 120
+      }
+    },
+    {
+      "name": "horizon_15m",
+      "overrides": {
+        "post_seconds": 900
+      }
+    },
+    {
+      "name": "horizon_30m",
+      "overrides": {
+        "post_seconds": 1800
+      }
+    },
+    {
+      "name": "sampling_5s",
+      "overrides": {
+        "step_seconds": 5
+      }
+    },
+    {
+      "name": "staleness_5s",
+      "overrides": {
+        "max_staleness_seconds": 5
+      }
+    },
+    {
+      "name": "coverage_85pct",
+      "overrides": {
+        "min_coverage": 0.85
+      }
+    }
+  ]
+}

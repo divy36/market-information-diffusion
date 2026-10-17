@@ -1,0 +1,13 @@
+{
+  "pre_seconds": 60,
+  "post_seconds": 300,
+  "step_seconds": 1,
+  "max_staleness_seconds": 2,
+  "endpoint_seconds": 60,
+  "min_coverage": 0.95,
+  "min_move_bps": 1.0,
+  "noise_multiplier": 3.0,
+  "min_history": 6,
+  "bootstrap_samples": 500,
+  "seed": 42
+}

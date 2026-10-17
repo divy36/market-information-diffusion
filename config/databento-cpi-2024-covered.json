@@ -1,0 +1,216 @@
+{
+  "provider": "Databento",
+  "status": "planned_not_downloaded",
+  "actuals_sha256": "0ede6d4411fbbe4a36b45a3320c2ab2c60333d74a57eff7a3ccc19f90f401e23",
+  "roll_rule": "previous_day_volume_rank_zero",
+  "requests": [
+    {
+      "id": "US-CPI-2024-01-11-ES",
+      "event_id": "US-CPI-2024-01-11",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-01-11T13:28:58+00:00",
+      "end": "2024-01-11T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-01-11-ZN",
+      "event_id": "US-CPI-2024-01-11",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-01-11T13:28:58+00:00",
+      "end": "2024-01-11T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-02-13-ES",
+      "event_id": "US-CPI-2024-02-13",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-02-13T13:28:58+00:00",
+      "end": "2024-02-13T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-02-13-ZN",
+      "event_id": "US-CPI-2024-02-13",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-02-13T13:28:58+00:00",
+      "end": "2024-02-13T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-04-10-ES",
+      "event_id": "US-CPI-2024-04-10",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-04-10T12:28:58+00:00",
+      "end": "2024-04-10T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-04-10-ZN",
+      "event_id": "US-CPI-2024-04-10",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-04-10T12:28:58+00:00",
+      "end": "2024-04-10T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-05-15-ES",
+      "event_id": "US-CPI-2024-05-15",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-05-15T12:28:58+00:00",
+      "end": "2024-05-15T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-05-15-ZN",
+      "event_id": "US-CPI-2024-05-15",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-05-15T12:28:58+00:00",
+      "end": "2024-05-15T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-06-12-ES",
+      "event_id": "US-CPI-2024-06-12",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-06-12T12:28:58+00:00",
+      "end": "2024-06-12T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-06-12-ZN",
+      "event_id": "US-CPI-2024-06-12",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-06-12T12:28:58+00:00",
+      "end": "2024-06-12T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-07-11-ES",
+      "event_id": "US-CPI-2024-07-11",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-07-11T12:28:58+00:00",
+      "end": "2024-07-11T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-07-11-ZN",
+      "event_id": "US-CPI-2024-07-11",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-07-11T12:28:58+00:00",
+      "end": "2024-07-11T13:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-11-13-ES",
+      "event_id": "US-CPI-2024-11-13",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-11-13T13:28:58+00:00",
+      "end": "2024-11-13T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-11-13-ZN",
+      "event_id": "US-CPI-2024-11-13",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-11-13T13:28:58+00:00",
+      "end": "2024-11-13T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-12-11-ES",
+      "event_id": "US-CPI-2024-12-11",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-12-11T13:28:58+00:00",
+      "end": "2024-12-11T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-12-11-ZN",
+      "event_id": "US-CPI-2024-12-11",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-12-11T13:28:58+00:00",
+      "end": "2024-12-11T14:00:01+00:00"
+    }
+  ]
+}

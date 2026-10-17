@@ -1,0 +1,89 @@
+{
+  "primary": {
+    "counts": {
+      "excluded": 48,
+      "review": 17,
+      "accepted": 5
+    },
+    "summary": {
+      "EURUSD": {
+        "n": 2,
+        "median": 3.5882718711240456,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "GBPUSD": {
+        "n": 3,
+        "median": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 6.468914209123743
+      }
+    },
+    "paired_comparisons": {
+      "EURUSD \u2212 GBPUSD": {
+        "n": 1,
+        "median": -6.468914209123743,
+        "ci_low": null,
+        "ci_high": null
+      }
+    }
+  },
+  "development": {
+    "counts": {
+      "excluded": 36,
+      "review": 14,
+      "accepted": 4
+    },
+    "summary": {
+      "EURUSD": {
+        "n": 2,
+        "median": 3.5882718711240456,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "GBPUSD": {
+        "n": 2,
+        "median": 3.2344571045618715,
+        "ci_low": null,
+        "ci_high": null
+      }
+    },
+    "paired_comparisons": {
+      "EURUSD \u2212 GBPUSD": {
+        "n": 1,
+        "median": -6.468914209123743,
+        "ci_low": null,
+        "ci_high": null
+      }
+    }
+  },
+  "holdout": {
+    "counts": {
+      "review": 3,
+      "accepted": 1,
+      "excluded": 12
+    },
+    "summary": {
+      "EURUSD": {
+        "n": 0,
+        "median": null,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "GBPUSD": {
+        "n": 1,
+        "median": 0.0,
+        "ci_low": null,
+        "ci_high": null
+      }
+    },
+    "paired_comparisons": {
+      "EURUSD \u2212 GBPUSD": {
+        "n": 0,
+        "median": null,
+        "ci_low": null,
+        "ci_high": null
+      }
+    }
+  }
+}

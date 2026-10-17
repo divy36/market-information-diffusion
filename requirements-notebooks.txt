@@ -1,0 +1,2 @@
+# Optional interactive viewer; the notebook cells use the standard library.
+jupyterlab>=4,<5

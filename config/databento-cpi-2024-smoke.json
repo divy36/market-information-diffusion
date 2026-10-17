@@ -1,0 +1,35 @@
+{
+  "provider": "Databento",
+  "status": "planned_not_downloaded",
+  "actuals_sha256": "f43161bee8614d5ef8888fc25a01cea046ac5fd6c5a24cdb7a98c1da4a377e61",
+  "roll_rule": "previous_day_volume_rank_zero",
+  "requests": [
+    {
+      "id": "US-CPI-2024-01-11-ES",
+      "event_id": "US-CPI-2024-01-11",
+      "root": "ES",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ES.v.0"
+      ],
+      "start": "2024-01-11T13:28:58+00:00",
+      "end": "2024-01-11T14:00:01+00:00"
+    },
+    {
+      "id": "US-CPI-2024-01-11-ZN",
+      "event_id": "US-CPI-2024-01-11",
+      "root": "ZN",
+      "dataset": "GLBX.MDP3",
+      "schema": "mbp-1",
+      "stype_in": "continuous",
+      "symbols": [
+        "ZN.v.0"
+      ],
+      "start": "2024-01-11T13:28:58+00:00",
+      "end": "2024-01-11T14:00:01+00:00"
+    }
+  ],
+  "scope": "single-event smoke test"
+}
